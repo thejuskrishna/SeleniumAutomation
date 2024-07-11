@@ -1,0 +1,5 @@
+for ((n=0;n<100;n++))
+do
+	python3 TestCases/runner.py -b chrome -t test_StayQrious
+	python3 TestCases/runner.py -b firefox -t test_StayQrious
+done
